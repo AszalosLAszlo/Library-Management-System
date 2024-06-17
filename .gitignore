@@ -1,0 +1,58 @@
+# Java és Maven általános beállítások
+*.class
+*.jar
+*.war
+*.ear
+*.rar
+*.zip
+*.tar.gz
+*.log
+*.patch
+*.key
+*.keystore
+
+# Kompilált osztályok
+target/
+bin/
+
+# Log fájlok
+*.log
+
+# Maven specifikus fájlok
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Eclipse specifikus fájlok
+.settings/
+.project
+.classpath
+
+# IntelliJ IDEA specifikus fájlok
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS specifikus fájlok
+.DS_Store
+Thumbs.db
+
+# Alkalmazás specifikus fájlok
+# H2 adatbázis fájlok, ha nem in-memory adatbázist használsz
+*.h2.db
+*.mv.db
+
+# Test coverage és riportok
+*.exec
+*.ec
+*.em
+*.txt
+*.out
+jacoco.exec
+
+# Kézzel generált fájlok
+dist/
+build/
